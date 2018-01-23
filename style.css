@@ -9,8 +9,15 @@ body{
 	background-color: #f2f5f7;
 
 }
+.navbar-nav{
+	float: right;
+}
+.navbar-inverse{
+	background-color: #f2f5f7;
+	border-color: #f2f5f7;
+}
 h3{
-	margin: 25px 0 25px 25px;
+	margin: 23px 0 25px 25px;
 	text-align: left;
 }
 h4{
@@ -18,13 +25,17 @@ h4{
 	text-align: left;
 	font-size: 24px;
 }
-
 h5{
 	margin: 25px;
 	border-radius: 10px;	
 }
-.left-menu{
-	border-radius: 40px;
+.author-view-details{
+	margin: 44px 25px;
+	border-radius: 10px;	
+}
+.author-names{
+	margin: 25px;
+	border-radius: 10px;	
 }
 .author-details{
 	margin-left: 20px;
@@ -39,22 +50,22 @@ ul{
 }
 ul li{
 	display: inline;
-	padding: 28px 15px;
+	padding: 22px 12px;
 	font-weight: 500;
-	font-size: 15px;
+	font-size: 16px;
 }
 .header-new{
 	border-bottom: 1px solid #e7ebee;
-	margin-top: 5px;
+	margin-top: 1px;
 }
 .header-new-style{
 	border-bottom: 1px solid #e7ebee;
 }
-.header{
+.active{
 	font-weight: 700;
-	font-size: 14px;
-	border-bottom: 4px solid #6dd6eb;
-	border-
+	font-size: 16px;
+	border-bottom: 3px solid #6dd6eb;
+	padding-bottom: 24px;
 }
 hr {
     margin-bottom: 15px;
@@ -64,35 +75,40 @@ hr {
 }
 .book-design-right{
 	position: relative;
-    left: 250px;
+    //left: 248px;
+    left: 295px;
     bottom: 93px;
     border-right: 4px dotted #9eb2bf;
 
 }
 .book-design-right1{
 	position: relative;
-    left: 238px;
+    //left: 247px;
+    left: 288px;
     bottom: 93px;
     border-right: 4px dotted #9eb2bf;
 
 }
 .book-design-right2{
 	position: relative;
-    left: 235px;
+    //left: 236px;
+    left: 278px;
     bottom: 93px;
     border-right: 4px dotted #9eb2bf;
 
 }
 .book-design-right3{
 	position: relative;
-    left: 240px;
+    //left: 242px;
+    left: 286px;
     bottom: 93px;
     border-right: 4px dotted #9eb2bf;
 
 }
 .book-design-right4{
 	position: relative;
-    left: 235px;
+   // left: 237px;
+    left: 279px;
     bottom: 93px;
     border-right: 4px dotted #9eb2bf;
 
@@ -114,6 +130,9 @@ hr {
 	border-radius: 100px;
 	margin: 0 5px;
 }
+.author-profile{
+	border-radius: 30px;
+}
 .customer-review{
 	font-size: 12px;
 	color: #7c8389;
@@ -121,6 +140,14 @@ hr {
     font-weight: 700;
 }
 .book1-details{
+	font-size: 16px;
+	color: #556069;
+	font-weight: 600;
+	margin: 30px;
+	position: absolute;
+	top: 10px;
+}
+.book2-details{
 	font-size: 16px;
 	color: #556069;
 	font-weight: 600;
@@ -162,28 +189,28 @@ hr {
 	margin-top: -20px;
 }
 .big-magic-book{
-	margin-left: 20px;
+	margin-left: 35px;
 	font-size: 14px;
 	color: #556069;
-	font-weight: 550;
+	font-weight: 700;
+	padding-right: 33px;
 	line-height: 26px;
 	position: absolute;
 }
 .author-name{
-	color: #5f6163;
-	font-size: 14px;
+	color: #8b9ca9;
+	font-size: 13px;
 	font-weight: 520;
 
 }
 .col-md-5{
 	width: 33.33333333%;
 	float: right;
-	margin-left: 34px;
 }
 .col-md-7{
 	width: 33.33333333%;
 	float: right;
-	margin-right: 34px;
+	margin-right: 48px;
 }
 
 /* media query for mobile  */
@@ -191,23 +218,34 @@ hr {
 @media only screen and (max-width: 768px) {
 
 h4{
-	margin: 25px 30px 25px 0px;
+	margin: 0;
 	text-align: center;
 	font-size: 24px;
 }
-ul{
-	margin: 5px 0;
-	padding: 5px 0;
-	float: right;
-}
 ul li{
 	display: inline;
-	padding: 28px 18px 20px 25px;
+	padding: 10px 12px;
 	font-weight: 500;
 	font-size: 15px;
 }
+ul{
+	float: left;
+}
+.active{
+	font-weight: 700;
+	font-size: 14px;
+	border-bottom: 3px solid #6dd6eb;
+	padding-bottom: 10px;
+}
+.navbar-nav{
+	float: left;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    background-color: #333;
+}
 .book-details{
-	margin: 100px 25px 30px 25px;
+	margin: 30px 25px 30px 25px;
 	background-color: #fff;
 	padding: 10px 10px 3px 10px;
 }
@@ -219,6 +257,21 @@ ul li{
 .book-design-right{
 	display: none;
 }
+.book-design-right1{
+  display: none;
+}
+.book-design-right2{
+	display: none;
+
+}
+.book-design-right3{
+	display: none;
+
+}
+.book-design-right4{
+	display: none;
+
+}
 .img-view{
 	margin: -25px 0 0 9px;
 }
@@ -226,9 +279,10 @@ ul li{
 	margin-top: 10px;
 	color: #cccccc;
 	font-size: 9px;
+	line-height: 20px;
 	font-weight: 500;
 	position: relative;
-	top: -7px;
+	top: -5px;
 }
 .lorem-details-2{
 	margin-top: 10px;
@@ -239,8 +293,15 @@ ul li{
 	top: -5px;
 }
 .book1-details {
-    font-size: 16px;
-    margin: 30px;
+    font-size: 10px;
+    margin: 30px 16px;
+    position: absolute;
+    top: -25px;
+
+}
+.book2-details {
+    font-size: 9px;
+    margin: 30px 12px;
     position: absolute;
     top: -25px;
 
@@ -261,10 +322,19 @@ ul li{
 	padding: 1px;
 	font-size: 10px;
 }
+.customer-review{
+	font-size: 9px;
+	color: #7c8389;
+	margin-left: 10px;
+    font-weight: 700;
+}
 .col-md-5{
 	display: none;
 }
 .col-md-7{
+	display: none;
+}
+.col-md-3{
 	display: none;
 }
 }
