@@ -75,8 +75,8 @@ hr {
 }
 .book-design-right{
 	position: relative;
-    //left: 248px;
-    left: 295px;
+        left: 248px;
+    //left: 295px;
     bottom: 93px;
     border-right: 4px dotted #9eb2bf;
 
@@ -91,24 +91,24 @@ hr {
 }
 .book-design-right2{
 	position: relative;
-    //left: 236px;
-    left: 278px;
+    left: 236px;
+    //left: 278px;
     bottom: 93px;
     border-right: 4px dotted #9eb2bf;
 
 }
 .book-design-right3{
 	position: relative;
-    //left: 242px;
-    left: 286px;
+    left: 242px;
+    //left: 286px;
     bottom: 93px;
     border-right: 4px dotted #9eb2bf;
 
 }
 .book-design-right4{
 	position: relative;
-   // left: 237px;
-    left: 279px;
+    left: 237px;
+    //left: 279px;
     bottom: 93px;
     border-right: 4px dotted #9eb2bf;
 
